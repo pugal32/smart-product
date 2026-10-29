@@ -1,0 +1,140 @@
+:root {
+  --navy: #1a0b2e;
+  --navy-2: #261240;
+  --cyan: #ff7a18;
+  --purple: #ff3d81;
+  --white: #ffffff;
+  --muted: #b7a6cc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+
+  background: var(--navy);
+  color: var(--white);
+  line-height: 1.5;
+}
+
+
+
+.home {
+  background: var(--navy);
+  padding-bottom: 60px;
+
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 6%;
+  background: rgba(26, 11, 46, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.logo span {
+  color: var(--cyan);
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  color: var(--white);
+  border-bottom-color: var(--cyan);
+}
+  
+
+
+
+.box {
+    margin: 30px 28px 0;
+    color: var(--white);
+}
+
+.head {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px 28px;
+}
+
+
+.head > div,
+.head > a > div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px;
+    background: #4a1d8f;
+    border: 1px solid #7b3fc4;
+    border-radius: 16px;
+    color: var(--white);
+
+}
+
+.head > div:hover,
+.head > a > div:hover {
+    border-color: #ff6a3d;
+    box-shadow: 0 0 15px #ff6a3d;
+}
+
+.head img {
+    width: 110px;
+    height: 150px;
+    object-fit: contain;
+    background: var(--white);
+    border-radius: 10px;
+}
+
+
+.item {
+    display: block;
+    color:var(--white);
+    flex-wrap:wrap;
+  
+}
+
+.item h2 {
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+
+.price {
+    flex-wrap:wrap;
+    margin: 0;
+    font-size: 20px;
+    color: #ff6a3d;
+}
+a {
+  text-decoration: none;
+}

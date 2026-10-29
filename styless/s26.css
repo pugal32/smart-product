@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+   border: 0;
+}
+
+.head {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 570px 1fr;
+    gap: 40px;
+    align-items: start;
+    background: rgb(242, 241, 240);
+    ;
+}
+
+
+.head img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #b0b3b8;
+    border-radius: 16px;
+    background: #f1f1f1;;
+}
+
+.condent {
+    margin: 0 0 15px;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #2b2929;
+}
+
+
+.second_condent {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 4px 12px;
+    border-radius: 8px;
+    background:#d5cde0;
+    color: #0b0a0a;
+    font-size: 20px;
+}
+
+/* .box {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(219, 162, 87);
+    width: 20px;
+} */
+
