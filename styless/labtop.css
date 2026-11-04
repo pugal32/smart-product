@@ -1,0 +1,39 @@
+.laptop-icon {
+    font-size: 75px;
+}
+
+.specs {
+    color: #c9bce8;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* Laptop Images */
+
+.product-image {
+    width: 45%;
+    height: 180px;
+    object-fit: contain;
+    background: transparent;
+}
+
+/* Laptop Card Layout */
+
+.product-card {
+    min-height: 270px;
+}
+
+/* Laptop Price */
+
+.price {
+    color: #ff7a18;
+    font-size: 25px;
+}
+
+/* Laptop Card Hover */
+
+.product-card:hover {
+    transform: translateY(-6px);
+    border-color: #ff7a18;
+    box-shadow: 0 0 20px rgba(124, 44, 255, 0.4);
+}
